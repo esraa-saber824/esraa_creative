@@ -1,35 +1,30 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>موقع إســراء - معرض شغلي</title>
-    <link rel="stylesheet" href="style.css">
+    <title>مكتبة إسراء</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .book { border: 1px solid #ccc; padding: 10px; margin: 10px; width: 200px; display: inline-block; vertical-align: top; }
+        .book img { width: 100%; }
+        .buy-btn { background: #28a745; color: white; padding: 5px 10px; text-decoration: none; display: inline-block; margin-top: 5px; }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>مرحبا! أنا إســراء</h1>
-        <p>هذا معرض شغلي وأعمالي الرقمية</p>
-    </header>
+    <h1>مكتبة إسراء</h1>
+    
+    <div class="book">
+        <img src="cover1.jpg" alt="غلاف الكتاب">
+        <h3>عنوان الكتاب 1</h3>
+        <p>وصف قصير عن الكتاب.</p>
+        <a class="buy-btn" href="https://wa.me/0123456789?text=اريد+شراء+كتاب+عنوان+الكتاب+1">اشتري الآن</a>
+    </div>
 
-    <section id="portfolio">
-        <h2>أعمالي</h2>
-        <div class="gallery">
-            <img src="images/project1.jpg" alt="مشروع 1">
-            <img src="images/project2.jpg" alt="مشروع 2">
-            <img src="images/project3.jpg" alt="مشروع 3">
-        </div>
-    </section>
+    <div class="book">
+        <img src="cover2.jpg" alt="غلاف الكتاب">
+        <h3>عنوان الكتاب 2</h3>
+        <p>وصف قصير عن الكتاب.</p>
+        <a class="buy-btn" href="https://wa.me/0123456789?text=اريد+شراء+كتاب+عنوان+الكتاب+2">اشتري الآن</a>
+    </div>
 
-    <section id="contact">
-        <h2>تواصل معي</h2>
-        <p>واتساب: <a href="https://wa.me/0123456789">0123456789</a></p>
-        <p>إنستجرام: <a href="https://instagram.com/username">@username</a></p>
-        <p>إيميل: esraa@example.com</p>
-    </section>
-
-    <footer>
-        <p>© 2025 إســراء - جميع الحقوق محفوظة</p>
-    </footer>
 </body>
 </html>
