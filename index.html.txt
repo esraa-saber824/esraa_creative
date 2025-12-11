@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع إســراء - معرض شغلي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبا! أنا إســراء</h1>
+        <p>هذا معرض شغلي وأعمالي الرقمية</p>
+    </header>
+
+    <section id="portfolio">
+        <h2>أعمالي</h2>
+        <div class="gallery">
+            <img src="images/project1.jpg" alt="مشروع 1">
+            <img src="images/project2.jpg" alt="مشروع 2">
+            <img src="images/project3.jpg" alt="مشروع 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معي</h2>
+        <p>واتساب: <a href="https://wa.me/0123456789">0123456789</a></p>
+        <p>إنستجرام: <a href="https://instagram.com/username">@username</a></p>
+        <p>إيميل: esraa@example.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 إســراء - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
