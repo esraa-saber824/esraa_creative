@@ -1,0 +1,11 @@
+docs/index.html
+docs/
+│
+├─ index.html
+├─ samer.html
+│
+├─ images/
+│   └─ samer.png
+│
+└─ pdf/
+    └─ samer-story.pdf
