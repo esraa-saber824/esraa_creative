@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>سامر وإصرار القلب الجميل</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    button {
+      background: #009688;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="images/samer.png" alt="غلاف قصة سامر">
+    <h2>سامر وإصرار القلب الجميل</h2>
+    <p>
+      قصة مؤثرة للأطفال والكبار، تحكي عن الإصرار، الأمل،
+      وقوة القلب الجميل في مواجهة الصعوبات.
+    </p>
+    <h3>السعر: 80 جنيه</h3>
+
+    <button onclick="showPayment()">اشترِ الآن</button>
+
+    <div id="payment" style="display:none; margin-top:15px;">
+      <p>
+        💳 الدفع عن طريق فودافون كاش  
+        <br>رقم: <strong>01091007426</strong>
+      </p>
+      <p>
+        بعد الدفع ابعتي صورة التحويل على واتساب  
+        <br>
+        <strong>01091007426</strong>
+      </p>
+      <p>
+        📩 سيتم إرسال ملف القصة PDF فور التأكيد
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function showPayment() {
+      document.getElementById("payment").style.display = "block";
+    }
+  </script>
+</body>
+</html>
