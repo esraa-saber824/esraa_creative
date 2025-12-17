@@ -1,33 +1,11 @@
-docs/index.html
-docs/
+docs
 │
 ├─ index.html
-├─ samer.html
+├─ samer.html   (اختياري)
+├─ policy.html
 │
-├─ images/
+├─ images
 │   └─ samer.png
 │
-└─ pdf/
+└─ pdf
     └─ samer-story.pdf
-<div class="story-card">
-  <img src="../images/samer.png" alt="غلاف قصة سامر وإصرار القلب الجميل">
-  <h2>سامر وإصرار القلب الجميل</h2>
-  <p>
-    قصة ملهمة للأطفال عن الإصرار وعدم الاستسلام،
-    بأسلوب دافئ ومشوق يناسب كل الأعمار.
-  </p>
-
-  <p><strong>السعر:</strong> 80 جنيه</p>
-
-  <a href="samer-story.pdf" class="buy-btn">
-    شراء وتحميل القصة
-  </a>
-</div>
-esraa_creative
-│
-├── docs
-│   ├── index.html
-│   └── policy.html
-│
-├── images
-│   └── samer.png
