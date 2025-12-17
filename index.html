@@ -13,3 +13,117 @@
 <a href="samer.html" class="buy-btn">
   عرض القصة
 </a>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>اسم القصة هنا</title>
+
+<style>
+body{
+  font-family: Arial;
+  direction: rtl;
+  background:#f4f4f4;
+  padding:15px;
+}
+.card{
+  background:#fff;
+  padding:15px;
+  border-radius:15px;
+  max-width:420px;
+  margin:auto;
+  text-align:center;
+}
+.card img{
+  width:100%;
+  max-width:260px;
+  border-radius:12px;
+}
+.btn{
+  display:block;
+  margin:10px 0;
+  padding:12px;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+.whatsapp{background:#25D366;color:#fff;}
+.vodafone{background:#d32f2f;color:#fff;}
+.note{font-size:14px;color:#555;}
+input{
+  width:100%;
+  padding:10px;
+  margin:8px 0;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<img src="../images/samer.png" alt="غلاف القصة">
+
+<h2>اسم القصة هنا</h2>
+
+<p>
+وصف القصة هنا بأسلوب بسيط وجذاب للأطفال.
+</p>
+
+<p><strong>السعر:</strong> 80 جنيه</p>
+
+<!-- اسم العميل -->
+<input type="text" id="clientName" placeholder="اكتبي اسمك">
+
+<a class="btn whatsapp"
+onclick="sendWhatsApp()">
+💬 استفسار واتساب
+</a>
+
+<a class="btn vodafone"
+onclick="sendPayment()">
+💳 الدفع فودافون كاش
+</a>
+
+<p class="note">
+📩 يتم إرسال ملف القصة PDF بعد تأكيد الدفع
+</p>
+
+<a href="policy.html" class="note">سياسة الشراء</a>
+
+</div>
+
+<!-- زر واتساب العائم -->
+<a href="https://wa.me/201012345678"
+   style="
+   position:fixed;
+   bottom:20px;
+   left:20px;
+   background:#25D366;
+   color:#fff;
+   padding:14px;
+   border-radius:50%;
+   text-decoration:none;
+   font-size:20px;">
+💬
+</a>
+
+<script>
+function sendWhatsApp(){
+  var name = document.getElementById("clientName").value;
+  var text = "مرحبا، اسمي " + name + " وعايزه استفسر عن القصة";
+  window.open("https://wa.me/201091007426?text=" + encodeURIComponent(text));
+}
+
+function sendPayment(){
+  var name = document.getElementById("clientName").value;
+  var text = "تم تحويل 80 جنيه فودافون كاش. الاسم: " + name;
+  window.open("https://wa.me/201091007426?text=" + encodeURIComponent(text));
+}
+</script>
+
+</body>
+  </html>
