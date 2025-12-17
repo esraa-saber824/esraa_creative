@@ -71,3 +71,28 @@
 وسيتم إرسال ملف القصة PDF
 على واتساب.
 </p>
+<style>
+.site-header {
+  text-align: center;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.site-header img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.site-header h1 {
+  margin: 5px 0;
+  font-size: 26px;
+  color: #2c3e50;
+}
+
+.site-header p {
+  color: #666;
+  font-size: 14px;
+}
+</style>
