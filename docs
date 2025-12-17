@@ -15,3 +15,10 @@ docs/
  ├─ adam-story.pdf
  ├─ samer.png
  ├─ samer-story.pdf
+docs/
+ ├─ index.html   ✅
+ ├─ logo.png     ← لوجو الموقع
+ ├─ samer.png
+ ├─ samer-story.pdf
+ ├─ cover.jpg
+ ├─ adam-story.pdf
