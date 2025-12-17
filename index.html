@@ -1,24 +1,9 @@
-../images/samer.png
-<div class="story">
-  <img src="images/samer.png" width="200">
-  <h3>سامر وإصرار القلب الجميل</h3>
-  <p>قصة عن الإصرار والأمل</p>
-  <a href="samer.html">عرض القصة</a>
-</div>
-<a href="https://wa.me/201091007426?text=مرحبا،%20تم%20تحويل%20مبلغ%2080%20جنيه%20فودافون%20كاش%20لشراء%20قصة%20سامر%20وإصرار%20القلب%20الجميل.%20برجاء%20إرسال%20ملف%20PDF"
-   class="vodafone-btn"
-   target="_blank">
-  💳 الدفع فودافون كاش
-</a>
-<a href="samer.html" class="buy-btn">
-  عرض القصة
-</a>
 <!DOCTYPE html>
 <html lang="ar">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>اسم القصة هنا</title>
+<title>سامر وإصرار القلب الجميل</title>
 
 <style>
 body{
@@ -27,6 +12,7 @@ body{
   background:#f4f4f4;
   padding:15px;
 }
+
 .card{
   background:#fff;
   padding:15px;
@@ -35,11 +21,13 @@ body{
   margin:auto;
   text-align:center;
 }
+
 .card img{
   width:100%;
   max-width:260px;
   border-radius:12px;
 }
+
 .btn{
   display:block;
   margin:10px 0;
@@ -48,9 +36,22 @@ body{
   text-decoration:none;
   font-weight:bold;
 }
-.whatsapp{background:#25D366;color:#fff;}
-.vodafone{background:#d32f2f;color:#fff;}
-.note{font-size:14px;color:#555;}
+
+.whatsapp{
+  background:#25D366;
+  color:#fff;
+}
+
+.vodafone{
+  background:#d32f2f;
+  color:#fff;
+}
+
+.note{
+  font-size:14px;
+  color:#555;
+}
+
 input{
   width:100%;
   padding:10px;
@@ -65,39 +66,35 @@ input{
 
 <div class="card">
 
-<img src="../images/samer.png" alt="غلاف القصة">
+  <img src="images/samer.png" alt="غلاف قصة سامر">
 
-<h2>اسم القصة هنا</h2>
+  <h2>سامر وإصرار القلب الجميل</h2>
 
-<p>
-وصف القصة هنا بأسلوب بسيط وجذاب للأطفال.
-</p>
+  <p>قصة عن الإصرار والأمل وعدم الاستسلام بأسلوب بسيط للأطفال.</p>
 
-<p><strong>السعر:</strong> 80 جنيه</p>
+  <p><strong>السعر:</strong> 80 جنيه</p>
 
-<!-- اسم العميل -->
-<input type="text" id="clientName" placeholder="اكتبي اسمك">
+  <input type="text" id="clientName" placeholder="اكتبي اسمك">
 
-<a class="btn whatsapp"
-onclick="sendWhatsApp()">
-💬 استفسار واتساب
-</a>
+  <a class="btn whatsapp" onclick="sendWhatsApp()">
+    💬 استفسار واتساب
+  </a>
 
-<a class="btn vodafone"
-onclick="sendPayment()">
-💳 الدفع فودافون كاش
-</a>
+  <a class="btn vodafone" onclick="sendPayment()">
+    💳 الدفع فودافون كاش
+  </a>
 
-<p class="note">
-📩 يتم إرسال ملف القصة PDF بعد تأكيد الدفع
-</p>
+  <p class="note">
+    📩 يتم إرسال ملف القصة PDF بعد تأكيد الدفع
+  </p>
 
-<a href="policy.html" class="note">سياسة الشراء</a>
+  <a href="policy.html" class="note">سياسة الشراء</a>
 
 </div>
 
-<!-- زر واتساب العائم -->
-<a href="https://wa.me/201012345678"
+<!-- زر واتساب عائم -->
+<a href="https://wa.me/201091007426"
+   target="_blank"
    style="
    position:fixed;
    bottom:20px;
@@ -114,16 +111,16 @@ onclick="sendPayment()">
 <script>
 function sendWhatsApp(){
   var name = document.getElementById("clientName").value;
-  var text = "مرحبا، اسمي " + name + " وعايزه استفسر عن القصة";
+  var text = "مرحبا، اسمي " + name + " وعايزه استفسر عن قصة سامر وإصرار القلب الجميل";
   window.open("https://wa.me/201091007426?text=" + encodeURIComponent(text));
 }
 
 function sendPayment(){
   var name = document.getElementById("clientName").value;
-  var text = "تم تحويل 80 جنيه فودافون كاش. الاسم: " + name;
+  var text = "تم تحويل 80 جنيه فودافون كاش لشراء قصة سامر وإصرار القلب الجميل. الاسم: " + name;
   window.open("https://wa.me/201091007426?text=" + encodeURIComponent(text));
 }
 </script>
 
 </body>
-  </html>
+</html>
