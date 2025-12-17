@@ -22,3 +22,16 @@
   border-radius:8px;
 }
 </style>
+<style>
+.vodafone-btn{
+  display:block;
+  margin:12px 0;
+  padding:12px;
+  background:#d32f2f;
+  color:#fff;
+  text-align:center;
+  border-radius:10px;
+  text-decoration:none;
+  font-weight:bold;
+}
+</style>
