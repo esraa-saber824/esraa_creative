@@ -96,3 +96,49 @@
   font-size: 14px;
 }
 </style>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f6f6f6;
+}
+
+.story-card {
+  background: #fff;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.story-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.story-card h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.desc {
+  color: #555;
+  font-size: 14px;
+}
+
+.price {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.buy-btn {
+  display: inline-block;
+  background: #1fa855;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
