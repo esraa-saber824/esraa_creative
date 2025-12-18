@@ -22,3 +22,9 @@ docs/
  ├─ samer-story.pdf
  ├─ cover.jpg
  ├─ adam-story.pdf
+docs/
+│
+├─ index.html
+├─ hapil-story.pdf
+└─ images/
+   └─ hapil.png
