@@ -142,3 +142,50 @@ body {
   font-weight: bold;
 }
 </style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+.story-container {
+  display: flex;          /* Flexbox */
+  flex-wrap: wrap;        /* الانتقال لسطر جديد عند ضيق الشاشة */
+  gap: 20px;              /* المسافة بين القصص */
+  justify-content: center; /* توسيط القصص */
+}
+
+.story-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.story-card:hover {
+  transform: scale(1.05);
+}
+
+.story-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.story-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.story-card .btn:hover {
+  background-color: #0056b3;
+  }
